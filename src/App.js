@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import Home from './pages/Home';
 import EmployeeList from './pages/EmployeeList';
 import Schedule from './pages/Schedule';
+import PayOverview from './pages/PayOverview';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
               <Route path="/" element={<Home />}></Route>
               <Route path="/list" element={<EmployeeList />}></Route>
               <Route path="/schedule" element={<Schedule />}></Route>
+              <Route path="/pay" element={<PayOverview />}></Route>
             </Routes>
           </section>
         </main>
