@@ -11,6 +11,7 @@ const Home = () => {
             <h2>Welcome</h2>
             <article>
                 <p>Today is {currentDate}</p>
+                <p>Use this portal to help see a list of your employees, manage shift schedules and monitor employee pay</p>
             </article>
         </>
      );

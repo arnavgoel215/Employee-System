@@ -5,6 +5,8 @@ import Home from './pages/Home';
 import EmployeeList from './pages/EmployeeList';
 import Schedule from './pages/Schedule';
 import PayOverview from './pages/PayOverview';
+import NewEmployee from './pages/NewEmployee';
+import ManualPay from './pages/ManualPay';
 
 function App() {
   return (
@@ -23,6 +25,8 @@ function App() {
               <Route path="/list" element={<EmployeeList />}></Route>
               <Route path="/schedule" element={<Schedule />}></Route>
               <Route path="/pay" element={<PayOverview />}></Route>
+              <Route path="newEmployee" element={<NewEmployee />}></Route>
+              <Route path="/manualPay" element={<ManualPay />}></Route>
             </Routes>
           </section>
         </main>
